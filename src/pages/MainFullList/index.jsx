@@ -1,0 +1,40 @@
+import React from "react";
+import { useNavigation } from "../../hooks/navigation";
+
+import styled from "styled-components";
+import { brand_orange } from "../../styles/colors";
+import { media } from "../../styles/mixin";
+
+function MainFullList() {
+  const { goToCompanyDetail } = useNavigation();
+
+  return (
+    <>
+      <Wrap>
+        <Title>ex. hello!</Title>
+        <StartButton onClick={goToCompanyDetail}>시작하기</StartButton>
+      </Wrap>
+    </>
+  );
+}
+
+export default MainFullList;
+
+const Wrap = styled.div`
+  color: ${brand_orange};
+
+  width: 100%;
+
+  ${media.ipad`
+    height: px;
+  `}
+
+  ${media.mobile`
+      // height: px;
+      // margin-top: px;
+  `};
+`;
+
+const Title = styled.h1``;
+
+const StartButton = styled.button``;
