@@ -22,7 +22,7 @@ export default MainFullList;
 
 const Wrap = styled.div`
   color: ${brand_orange};
-
+git 
   width: 100%;
 
   ${media.ipad`
