@@ -22,7 +22,7 @@ export default MainFullList;
 
 const Wrap = styled.div`
   color: ${brand_orange};
-
+git 
   width: 100%;
 
   ${media.ipad`
@@ -35,6 +35,9 @@ const Wrap = styled.div`
   `};
 `;
 
-const Title = styled.h1``;
+const Title = styled.h1`
+  font-family: "Pretendard";
+  font-weight: 500;
+`;
 
 const StartButton = styled.button``;
