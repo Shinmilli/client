@@ -4,7 +4,7 @@ import { media } from "./mixin";
 
 import fontBold from "../assets/fonts/Pretendard-Bold.woff";
 import fontMedium from "../assets/fonts/Pretendard-Medium.woff";
-import fontLight from "../assets/fonts/Pretendard-light.woff";
+import fontLight from "../assets/fonts/Pretendard-Light.woff";
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
