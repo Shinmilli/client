@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MainLayout from "./components/Layout/MainLayout";
+import MainLayout from "./components/layout/MainLayout";
 import MainFullList from "./pages/MainFullList";
 import SelectCompany from "./pages/SelectCompany";
 import InvestStatus from "./pages/InvestStatus";
